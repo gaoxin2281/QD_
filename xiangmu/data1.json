@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "img": "image/xs1.jpg",
+    "pires":"￥9.90<del>￥22.60</del>",
+    "title":"【倍有滋】烤物·素烧"
+  },
+  {
+    "id": 1,
+    "img": "image/xs2.jpg",
+    "pires":"￥25.90<del>￥29.90</del>",
+    "title":"早康宁夏中宁枸杞"
+  },
+  {
+    "id": 2,
+    "img": "image/xs3.jpg",
+    "pires":"￥8.90<del>￥15.00</del>",
+    "title":"泰禾谷东北海伦黄豆"
+  },
+  {
+    "id": 3,
+    "img": "image/xs4.jpg",
+    "pires":"￥52.00<del>￥70.00</del>",
+    "title":"亚洲渔港喜羊羊流沙"
+  },
+  {
+    "id": 4,
+    "img": "image/xs5.jpg",
+    "pires":"￥19.90<del>￥33.70</del>",
+    "title":"雪花猪肉腿肉500g"
+  }
+]

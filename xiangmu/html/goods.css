@@ -1,0 +1,83 @@
+.m-down{height: 42px; }
+.menu-down{height: 42px; }
+.menu-down p{float: left;line-height: 42px;color: #babab9}
+.menu-down a{float: left;width: 24px; }
+/* <!-- ========================= good===========================--> */
+.shop-good {height: 590px}
+.shop-good-1 {height: 590px;position: relative;}
+.shop-good-1 .Main { margin-left: 100px; margin-top:10px;width:608px;height:511px;float:left;position:relative;}
+.Main {margin:100px;width:608px;height:511px;float:left;position:relative;}
+.Main .zoom {height:393px;width:393px;position:relative;border: 1px solid #dcdddd;}
+.Main .zoom .move{position:absolute;left:0; top:0;display:none;width:80px; height:80px;background:#000;opacity:0.2;filter:alpha(opacity=20);}
+.Main .zoomDetail{z-index: 1;display:none;border:1px solid #DCDDDD;width:500px; height:500px; position:absolute;right:-350px;top:0px; overflow:hidden;}
+.little .slideMain {width:100px;height:400px;margin-left:26px;position:relative; overflow: hidden; left: -128px; top: -400px}
+.little .slideMain ul {height:355px;padding-top:1px; position: relative; list-style: none;}
+.little .slideMain ul li {margin-top:6px;cursor:pointer;width:50px;height:50px;border:1px solid #dbdbdb;}
+.little .slideMain ul li .selected {border-color:#999;}
+.little .slideMain ul li img {width:50px;height:50px;}
+
+/* <!-- ========================= 左侧===========================--> */
+
+.shop-good-1 .good-right{height: 580px; width: 600px;position: absolute;top: 0px; right: 0;}
+.shop-good-1 .good-right h3{width: 600px;height: 36px; line-height: 36px;float: left;font-size: 15px; font-weight: bold;}
+.shop-good-1 .Promotion{border-top: 1px solid #8cb802; border-bottom: 1px solid #8cb802;position: relative;width: 600px; height: 88px;  float: left;margin-top: 15px;}
+.shop-good-1 .Promotion h1{color: white;float: left;height: 26px;width: 58px; line-height: 26px; background:#ff6900;margin-top: 20px;text-align: center; }
+.shop-good-1 .Promotion h2{float: left;height: 27px; width: 113px;color: #ff6900;line-height: 27px; margin-top: 20px; font-size: 27px;text-align: center;margin-left: 6px }
+.shop-good-1 .Promotion h4{float: left;height: 16px; width: 129px; font-size: 14px;line-height: 16px; margin-top: 29px;margin-left: 6px }
+.shop-good-1 .Promotion h5{float: left;height: 20px; width: 85px; font-size: 14px;line-height: 20px; margin-top: 25px;margin-left: 6px;color: #ff6900;border:1px solid #ff6900; }
+.shop-good-1 .Promotion button{ margin-top: 26px;margin-left: 8px; background: white;border-radius: 5px; width: 87px; height: 20px; background: url(tz.jpg) no-repeat center; text-indent: -999px}
+.shop-good-1 .Promotion button:hover{cursor: pointer;border:1px solid #8cb802;}
+.shop-good-1 .tzd{width: 600px;height: 116px;float: left;}
+.shop-good-1 ..goods_box{height: 65px; width: 600px; float: left; background: pink}
+.goods_box .goods_item .sc{width: 182px; height: 53px;background: red;float: left; margin-right: 130px;margin-bottom: 15px}
+.goods_box .goods_item .sc_btn{ text-indent: 999px; cursor:pointer; width: 182px; height: 53px ;background:url(gwc.jpg) no-repeat;text-align: center; line-height: 25px; font-size: 12px;color: white}
+
+.shop-good-1 .zhuyi img{height: 220px; }
+
+
+
+
+
+
+.sc_right{width: 270px;border-left: 2px solid #b6b6b6;top: 370px;position:fixed;right:20px; right: 220px; top:-270px; }
+.sc_pic{width: 40px;height: 40px;padding: 4px 6px;background: url(../image/gouwuche.jpg) 0px 0px no-repeat;position: relative;left: -32px;top: 380px;margin-top: -24px;}
+.sc_num{position: absolute;padding: 1px 3px;border-radius: 50%;background: #8ab700;color: #fff;top: 10px;left: 20px;z-index: 1;}
+.sc_goodsPic{width: 80px;height: 80px;border: 1px solid #b6b6b6;float: left;}
+.sc_goodsPic img{width: 80px;height: 80px;float:left;display: block}
+.sc_goodsTitle{line-height: 40px;color: #999;margin-left: 20px;float: left; position: absolute;left: 70px;}
+.sc_goodsBtn{position: absolute; left: 160px; top:70px;background: #fc1934;color: #fff;text-align: center;float: left;line-height: 30px;width: 60px;height: 30px;margin-left: 20px;cursor: pointer;} 
+.sc_goodsNum{float: left;line-height: 30px;font-size: 10px;margin-left: 5px;position: absolute;top: 70px; left: 100px;}
+.sc_right li{height: 120px;} 
+
+
+.floating_ck{position:fixed;right:20px;top:30%;}
+.floating_ck dl dd{position:relative;width:50px;height:80px;background-color:#b1ce74;border-bottom:solid 1px #555666;text-align:center;background-repeat:no-repeat;background-position:center 20%;cursor:pointer;}
+.floating_ck dl dd:hover{background-color:#e40231;border-bottom:solid 1px #b1ce74;}
+.floating_ck dl dd:hover .floating_left{display:block;}
+.consult,.words{background-image:url(../image/icon0701/zxicon.png);}
+.quote{background:url(../image/icon0701/kficon.png);}
+.qrcord{background:url(../image/icon0701/erweima.png);}
+.return{background:url(../image/icon0701/fanhui.png);}
+.floating_ck dd span{color:#b1ce74;display:block;padding-top:54px;}
+.floating_ck .js{color: black;height: 50px;font-size: 15px;}
+.floating_left{position:absolute;left:-160px;top:0px;width:160px;height:80px;background-color:#ff6900;border-bottom:solid 1px #a40324;display:none;}
+.floating_left a{color:#b1ce74;line-height:80px;}
+.floating_ewm{height:260px;top:-180px;}
+.floating_ewm i{background:url(../image/erweima.jpg)  no-repeat center; display:block;width:135px;height:135px; margin:auto;margin-top: 35px }
+
+.floating_ewm p{color:#b1ce74;margin-top:5px;}
+.floating_ewm .qrcord_p01{font-size:12px;line-height:20px;}
+.floating_ewm .qrcord_p02{font-size:18px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

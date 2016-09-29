@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">	
+	<script type = "text/javascript" src="js/style.js"></script> 
+	
+	<script type = "text/javascript" src = "js/ajax.js"></script>
+	<script type = "text/javascript" src = "js/jquery-1.11.3.js"></script> 
+	
+	<script type="text/javascript" src = "jquery.cookie.js"></script>
+	<script type = "text/javascript" src="js/daojishi.js"></script> 
+	 
+	
+</head>
+
+<body>
+<!-- =========================top===========================-->
+	<div class="top">
+		<div class=" top1 wrap">
+			<span>您好 ，请</span>
+			<div class="top2">		
+				<div id="denglu"><a href="#">[登录]</a></div>
+				<div id="zuche"><a href="html/zuche.html">[注册]</a></div>
+				<div id="jigouhuiyuan"><a href="#">[机构会员]</a></div>
+			</div>
+			<div class="top3">
+				<em><img src="image/chebiao.jpg" alt=""></em>
+				<form action="">
+					送至:
+					<select name="" >
+						<option >北京</option>
+						<option >上海</option>
+						<option >广东</option>
+						<option >深圳</option>
+					</select>
+				</form>
+			</div>
+			
+			<div class="top4">
+				<ul id="ul1">
+					<li><a href="#">我的订单</a></li>
+					<li><a href="#">本来礼品</a></li>
+					<li id="zsbl"><a href="#">掌上本来</a>
+						<div class="erweima">
+						<img src="image/erweima.jpg" alt="">
+						</div> 									
+					</li>
+					<li id="khfw"><a href="#">客户服务</a>
+						 <div class="kehufuwu">
+							<a href="#"> 在线客服</a>
+							<a href="#"> 联系客服</a>
+							<a href="#"> 销售热线</a>
+							<a href="#"> 帮助中心</a>
+						</div> 
+					</li>
+				</ul>
+				<i><img src="image/img/1.jpg" width="13px" height="22px" id="showpic1" /></i>
+			</div>
+		</div>
+
+	</div>
+<!-- =========================top 下的图片变换===========================-->
+	<div class="top_img">
+		<img src="image/1.jpg" width="100%" height="59px" id="showpic" />
+	</div>
+<!-- =========================header 搜索框===========================-->
+	<div class="header">
+		<div class="header1 wrap">
+			<img class="img" src="image/logo.jpg" alt="">
+			<div class="search">
+				<span><a href="#">月饼</a><a href="#">大闸蟹</a><a href="#">本来鸡爪</a><a href="#">月饼</a><a href="#">月饼</a> </span>
+				<form action="">
+					<input type="text" placeholder="佳沛" class="input1" >
+					<a href="#"><input type="button" value="搜索" class="btn"></a>
+				</form>
+			</div>
+			<div class="header2" id="header2">
+				<input type="button" value="我的本来" id="button" class="button">
+			
+			</div>
+		</div>
+	</div>
+<!-- =========================menu菜单===========================-->
+	<div class="menu">
+		<div class="menu1 wrap">
+			<ul class="ul1">
+				<a href="html/cuxiao.html"><li style="width: 170px; margin-right: 10px">所有商品分类</li></a>
+				<a href="html/sales.html"><li>首页</li></a>
+				<a href="html/sales.html"><li>兑换专区</li></a>
+				<a href="html/sales.html"><li>台创园</li></a>
+				<a href="html/sales.html"><li>全国配</li></a>
+				<a href="html/sales.html"><li>超值宅配</li></a>
+				<a href="html/sales.html"><li>充值</li></a>
+				<a href="html/sales.html"><li>促销</li></a>
+				<a href="html/sales.html"><li>本来礼品</li></a>
+				<a href="html/sales.html"><li>每日鲜</li></a>
+			</ul>
+		
+			<div id="ul2">
+				
+			</div>
+			
+		</div>
+
+	</div>
+<!-- =========================banner===========================-->
+	<div class="banner" id="banner">
+		<ul class="img-list">
+			<li><img src="image/banner/1.jpg"></li>
+			<li><img src="image/banner/2.jpg"></li>
+			<li><img src="image/banner/3.jpg"></li>
+			<li><img src="image/banner/4.jpg"></li>
+			<li><img src="image/banner/5.jpg"></li>
+			<li><img src="image/banner/6.jpg"></li>
+		</ul>
+		
+		<ul class="banner-nav-list">
+			<li class="active">生鲜狂欢一折炒</li>
+			<li>生鲜狂欢一折炒</li>
+			<li>生鲜狂欢一折炒</li>
+			<li>生鲜狂欢一折炒</li>
+			<li>生鲜狂欢一折炒</li>
+			<li>生鲜狂欢一折炒</li>
+		</ul>
+	</div>
+<!-- =========================banner下===========================-->
+	<div class="banner-down">
+		<div class="banner-down-1 wrap" id="banner-down-1">
+			
+		</div>
+	</div>
+<!-- =========================Notice(公告)===========================-->
+	<div class="Notice">
+		<div class="Notice-1 wrap">
+			<div class="new-hot" id="new-hot">
+				
+			</div>
+			<div>
+				<img class = "img" src="image/qcs.jpg" >
+			</div>
+		</div>
+	</div>
+<!-- =========================Limit (限时抢购)===========================-->
+	<div class="xsqg">
+		<div class="xsqg-1 wrap">
+			<div class="daojishi" id="daojishi">
+				<img src="image/daojishi.jpg" alt="">
+				<span>距离国庆抢购还剩：</span><br/>
+					<div class="timerbg">
+						  <div id="dao">
+						    <strong id="RemainM"></strong>分
+						    <strong id="RemainS"></strong>秒
+						  </div>
+					</div>
+					<div>
+						<img src="image/xq.jpg" alt="">
+					</div>
+			</div>
+
+			<div class="goods_box" id="goods_box">
+				<ul>
+					
+				</ul>
+			</div>
+			<div class="limit-right" >
+				<img src="image/xie.jpg" alt="">
+			</div>
+		</div>
+	</div>
+<!-- =========================买手力荐（ Recommend）===========================-->
+<div class="mslj">
+	<div class="mslj-1 wrap">
+	     <div class="Recommend" id="Recommend">
+	     	
+	     </div>
+	</div>
+</div>
+<!-- =========================舟山海鲜===========================-->
+<div class="zshx">
+	<div class="zshx-1 wrap">
+		<div class="zsfish" id="zsfish">
+		
+		</div>
+	</div>
+</div>
+<!-- =========================进店必败===========================-->
+<div class="jdbb">
+	<div class="jdbb-1 wrap">
+		<div class="Blast" id="Blast">
+			<div class="bao">
+				<img src="image/bao.jpg" alt="">
+				<p>进店必败</p>
+			</div>
+			<div class="meirixian" id ="meirixian">			
+			</div>
+			   <div class="baokuantuijian" id="baokuantuijian">
+			   	
+			   </div>
+		</div>
+	</div>
+</div>
+
+<!-- =========================红苹果===========================-->
+<div class="hpg">
+	<div class="hpg-1 wrap">
+		<div class="cshpg" id="cshpg">
+		
+		</div>
+	</div>
+</div>
+<!-- =========================时令鲜果===========================-->
+<div class="slxg">
+	<div class="slxg-1 wrap">
+		<div class="fruit" id="fruit">
+			<div class="bao">
+				<img src="image/bao.jpg" alt="">
+				<p>时令鲜果</p>
+			</div>
+			<div class="shilingxianguo" id ="shilingxianguo">			
+			</div>
+			   <div class="slxg-right" id="slxg-right">
+			   	
+			   </div>
+		</div>
+	</div>
+</div>
+<!-- =========================本来精选时蔬===========================-->
+<div class="jxss">
+	<div class="jxss-1 wrap">
+		<div class="bljxss" id="bljxss">
+		
+		</div>
+	</div>
+</div>
+<!-- =========================蔬菜菌菇===========================-->
+<div class="scjg">
+	<div class="scjg-1 wrap">
+		<div class="greens" id="greens">
+			<div class="bao">
+				<img src="image/bao.jpg" alt="">
+				<p>蔬菜菌菇</p>
+			</div>
+			<div class="shucaijungu" id ="shucaijungu">			
+			</div>
+			   <div class="scjg-right" id="scjg-right">
+			   	
+			   </div>
+		</div>
+	</div>
+</div>
+<!-- =========================美味三文鱼===========================-->
+<div class="meiwei">
+	<div class="meiwei-1 wrap">
+		<div class="sanwenyu" id="sanwenyu">
+		
+		</div>
+	</div>
+</div>
+<!-- =========================水产海鲜===========================-->
+<div class="schx">
+	<div class="schx-1 wrap">
+		<div class="fish" id="fish">
+			<div class="bao">
+				<img src="image/bao.jpg" alt="">
+				<p>水产海鲜</p>
+			</div>
+			<div class="shuichanhanxian" id ="shuichanhanxian">			
+			</div>
+			   <div class="schx-right" id="schx-right">
+			   	
+			   </div>
+		</div>
+	</div>
+</div>
+<!-- =========================美味鸽子肉===========================-->
+<div class="yafei">
+	<div class="yafei-1 wrap">
+		<div class="gerou" id="gerou">
+		
+		</div>
+	</div>
+</div>
+<!-- =========================鲜牛肉===========================-->
+<div class="rouqin">
+	<div class="rouqin-1 wrap">
+		<div class="root" id="root">
+			<div class="bao">
+				<img src="image/bao.jpg" alt="">
+				<p>肉禽蛋品</p>
+			</div>
+			<div class="rouqindanpin" id ="rouqindanpin">			
+			</div>
+			   <div class="rouqin-right" id="rouqin-right">
+			   	
+			   </div>
+		</div>
+	</div>
+</div>
+<!-- =========================last===========================-->
+<div class="last">
+	<div  class="last1 wrap">
+		
+			<div class="right-1">
+				<img src="image/right-1.jpg" alt="">
+				<h3 class="p1">8小时低温</h3><br/><br/>
+				<span><a href="#">全程冷链配送</a></span>
+			</div>
+			<div class="right-2">
+				<img src="image/right-1.jpg" alt="">
+				<h3 class="p1">8小时低温</h3><br/><br/>
+				<span><a href="#">全程冷链配送</a></span>
+			</div>
+			<div class="right-3">
+				<img src="image/right-1.jpg" alt="">
+				<h3 class="p1">8小时低温</h3><br/><br/>
+				<span><a href="#">全程冷链配送</a></span>
+			</div>
+			<div class="right-4">
+				<img src="image/right-1.jpg" alt="">
+				<h3 class="p1">8小时低温</h3><br/><br/>
+				<span><a href="#">全程冷链配送</a></span>
+			</div>
+		</div>
+	
+</div>
+<!-- =========================footer===========================-->
+<div class="footer">
+	<div class="footer-1 wrap">
+		<div class="top">
+			<div class="top-1">
+			<img src="image/footer-1.jpg" alt="">
+				<dl>
+					<dt>新手指南</dt>
+					<dd ><a class="dd-1"href="#">购物流程</a></dd>
+					<dd><a href="#">会员政策</a></dd>
+					<dd><a href="#">联系客服</a></dd>
+					<dd><a href="#">积分政策</a></dd>
+					<dd><a href="#">加入我们</a></dd>
+				</dl>
+			</div>
+			<div class="top-2">
+			<img src="image/footer-1.jpg" alt="">
+				<dl>
+					<dt>配送方式</dt>
+					<dd ><a class="dd-1"href="#">全程冷链</a></dd>
+					<dd><a href="#">会员政策</a></dd>
+					<dd><a href="#">联系客服</a></dd>
+					<dd><a href="#">积分政策</a></dd>
+					<dd><a href="#">加入我们</a></dd>
+				</dl>
+			</div>
+			<div class="top-3">
+			<img src="image/footer-1.jpg" alt="">
+				<dl>
+					<dt>支付方式</dt>
+					<dd ><a class="dd-1"href="#">购物流程</a></dd>
+					<dd><a href="#">会员政策</a></dd>
+					<dd><a href="#">联系客服</a></dd>
+					<dd><a href="#">积分政策</a></dd>
+					<dd><a href="#">加入我们</a></dd>
+				</dl>
+			</div>
+			<div class="top-4">
+			<img src="image/footer-1.jpg" alt="">
+				<dl>
+					<dt>售后服务</dt>
+					<dd ><a class="dd-1"href="#">购物流程</a></dd>
+					<dd><a href="#">会员政策</a></dd>
+					<dd><a href="#">联系客服</a></dd>
+					<dd><a href="#">积分政策</a></dd>
+					<dd><a href="#">加入我们</a></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="foot">
+			<h3>客服热线：4008-000-917（周一至周日 8:00-20:00）</h3>
+			<p><a href="#">加入我们</a><a href="#">联系我们</a><a href="#">关于我们</a> <a href="#">友情链接</a><a href="#">品牌食材</a><a href="#">食品流通许可证</a><a href="#">营业执照</a></p>
+			<h2><a href="#">京公网安备 11010502022386号</a><a href="#">京ICP证120338号</a></h2>
+			<h1>© 2012-2016 Benlai.com. All Rights Reserved. 北京本来工坊科技有限公司</h1>
+			<em></em>
+		</div>
+	</div>
+	
+</div>
+
+<!-- =========================购物车===========================-->
+	
+	<div class="sc_right">
+		<div class="sc_pic">
+			<div class="sc_num">
+			</div>
+		</div>
+		<ul>	
+		</ul>
+	</div>
+
+</body> 
+</html>

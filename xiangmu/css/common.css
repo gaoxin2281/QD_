@@ -1,0 +1,36 @@
+
+html, body, form, img, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, b, u, i, p, em, td, th, input, textarea, label, select, iframe {
+    color: #333;
+    font-family: "宋体","Arial Narrow",HELVETICA;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+em,i,s{font-style:normal;display:block;}
+li,dl,ol{list-style:none;}
+input{ float:left; border:0; background:none}
+a{text-decoration:none;cursor:pointer;display:block;border:0;color: #707070}
+fieldset, img{border:0;}
+h1, h2, h3, h4, h5, h6{font-size:100%;font-weight:normal;}
+.wrap{width: 1202px;margin: 0 auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
